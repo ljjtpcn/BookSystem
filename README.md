@@ -1,4 +1,4 @@
-# BookSystem
+BookSystem
 
 把上学期学生理财系统搬出来再次魔改应付一下`Java`作业还是可以的————>  `简易图书管理系统`（由Maven管理）
 
@@ -12,7 +12,11 @@ JAVA：`Swing` , `JDBC`
 
 2. 建立`bookinfo`数据库(根目录带有sql文件)
 
-3. 运行
+3. 修改`src/main/java/cn/twopair/utils/DBManager.java`数据库配置信息（下图所示位置）
+
+    ![](https://hexoljj.oss-cn-shenzhen.aliyuncs.com/img/202205172111583.png)
+
+​	4. 运行
 
 ~~(由于继承的上一个理财系统， 所有有些类(方法)是无用的)~~
 
