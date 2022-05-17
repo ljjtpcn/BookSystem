@@ -39,4 +39,17 @@ public class BulkImportUtil {
         }
     }
 
+    /**
+     * @Param: color颜色
+     * @Param: Labels JLanel对象
+     * @Description: 批量染色
+     * @Return: void
+     * @Author: 李佳骏
+     * @Date: 2022/5/17 下午7:19
+     */
+    public static void setColor(Color color, JLabel... Labels) {
+        for (JLabel label : Labels) {
+            label.setForeground(color);
+        }
+    }
 }

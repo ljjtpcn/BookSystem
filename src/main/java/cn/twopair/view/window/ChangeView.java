@@ -220,12 +220,15 @@ public class ChangeView extends JDialog {
         //设置窗口不可拉伸
 //        setResizable(false);
         BulkImportUtil.setFont(lFont, idTextField, bookNoTextField, bookNameTextField, authorField, publisherTextField, priceTextField, publishTimeField, ISBNTextField, amountTextField);
+        BulkImportUtil.setColor(Color.RED, idLabel, bookNoLabel, bookNameLabel, authorLabel, publisherLabel, priceLabel, publishTimeLabel, ISBNLabel, amountLabel);
         sureButton.setContentAreaFilled(false);
         sureButton.setBorderPainted(false);
 
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
     }
+
+
 
 
 }

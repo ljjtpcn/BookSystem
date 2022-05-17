@@ -89,6 +89,7 @@ public class AddView extends JDialog {
         SetIconUtil.setIcon(typeLabel, "img/type.png");
         typeLabel.setBounds(90, 109, 140, 20);    //设置"类型"标签位置。
         typeLabel.setFont(new Font("隶书", Font.BOLD, 20));
+        //typeLabel.setForeground(Color.RED);
         centerJPanel.add(typeLabel);    //添加"类型"标签。
         //创建"图书"文本域
         typeText = new JTextField(26);
